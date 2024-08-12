@@ -1,0 +1,280 @@
+/************* Our Services Section start **********************/
+:root {
+    --white-color: #ffffff;
+    --black-color: #191e25;
+    --green-color: #54a154;
+    --dark-black-color:#292b32;
+    --paragraph-color:#212529;
+}
+.our-services {
+    padding: 70px 0px 70px !important;
+    background: #fff;
+}
+.our-services .services-inner h2 {
+    text-align: left;
+    color: var(--black-color);
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+
+.our-services .services-inner p {
+    text-align: left;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.litle-dess {
+    margin-bottom: 0px;
+    padding-bottom: 7px;
+    color: var(--green-color) !important;
+    font-weight: 600 !important;
+}
+
+.service-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.service-row .col {
+    background-color: #ffffffd1;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #9797979e;
+    border: 1px solid #e1e1e1;
+}
+
+.srv_bg_img {
+    position: relative;
+}
+
+.service-row .col:hover {
+    background-color: #d7d7d70a;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #9797971a;
+    border: 1px solid #e1e1e1;
+}
+
+.oposite ul li {
+    font-size: 15px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.oposite ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 7px;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.oposite ul li {
+    font-size: 17px;
+    line-height: 28px;
+    color:var(--paragraph-color);
+    display: flex;
+    gap: 7px;
+    align-items: start;
+    margin: 1px 0px;
+}
+.service-row .col p {
+    color: #000;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.service-row .col img {
+    width: 24%;
+    margin-bottom: 15px;
+}
+
+.read-btn a {
+    display: block;
+    padding: 10px 23px;
+    background: var(--green-color);
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    width: 10%;
+    text-decoration: none;
+    margin: 30px auto 50px;
+}
+
+.services-inner h2,
+.services-inner p {
+    padding-bottom: 15px;
+}
+
+.service-row h3 {
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.services-card:hover p {
+    display: none;
+    font-size: 16px;
+}
+
+.services-card .oposite {
+    display: none;
+}
+
+/* get a quote btn */
+
+button.get_quote_btn {
+    color: white;
+    background: var(--green-color);
+    padding: 10px;
+    font-weight: 700;
+}
+
+button.get_quote_btn:hover {
+    box-shadow: inset 0 100px 0 0 #191e25;
+    color: var(--white-color);
+    transition: 1s;
+    text-decoration: none;
+}
+
+/************* Our Services Section flip css **********************/
+
+/* entire container, keeps perspective */
+.flip-container {
+    -webkit-perspective: 1000;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 100%;
+    height: 465px;
+}
+/* flip speed goes here */
+/* .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+} */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d; /* Add -webkit- prefix */
+    position: relative;
+}
+
+/* hide back of pane during swap */
+/* .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: cornSilk;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px var(--green-color) !important;
+} */
+.front, .back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Add -webkit- prefix */
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: cornSilk;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px var(--green-color) !important;
+}
+.logo_img img, .back_logo_img img {
+    width: 100px;
+    text-align: left;
+}
+
+.logo_img, .back_logo_img {
+    text-align: left;
+}
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+    padding: 30px 30px;
+    background: #fff;
+    /* height: 510px; */
+    margin-bottom: 20px !important;
+}
+
+.front .srv_bg_web {
+    width: 55px !important;
+}
+
+.oposite ul li span svg {
+    fill: var(--green-color);
+    filter: contrast(0.5);
+}
+.servic_provid {
+    margin-top: 70px;
+}
+.back .srv_bg_web {
+    width: 55px !important;
+}
+.front_img {
+    width: max-content;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px #54a154;
+    border-radius: 100%;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: -77px !important;
+}
+.logo_img h3 {
+    font-size: 24px;
+    color: var(--black-color);
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.logo_img  p {
+    text-align: left !important;
+    color: var(--paragraph-color) !important;
+}
+
+.back_logo_img h3 {
+    font-size: 26px;
+    color: #000;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.back_logo_img h3 {
+    font-size: 26px;
+    color:var(--black-color);
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+/* back, initially hidden pane */
+/* .back {
+    transform: rotateY(180deg);
+    padding: 30px 30px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 0px var(--green-color) !important;
+} */
+.back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    padding: 30px 30px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0px var(--green-color) !important;
+    box-shadow: 0px 0px 5px 0px var(--green-color) !important;
+}

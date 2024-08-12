@@ -1,0 +1,146 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Shalu Sharma",
+            "image": "/images/team/shalu.png",
+            "linkedIn":"https://www.linkedin.com/in/shalu-sharma-9baa55234/",
+            "profile": "Human Resource"
+        },
+        {
+            "id": 2,
+            "name": "Shobha Negi ",
+            "image": "/images/team/shobha.png",
+            "linkedIn":"https://www.linkedin.com/in/shobha-negi-b98014249/",
+            "profile": "Human Resource"
+        },
+        {
+            "id": 3,
+            "name": "Charanjeet Singh ",
+            "image": "/images/team/charanjit.png",
+            "linkedIn":"",
+            "profile": "Project Manager"
+        },
+        {
+            "id": 4,
+            "name": "Rishika Rana",
+            "image": "/images/team/rishika.png",
+            "linkedIn":"",
+            "profile": "PHP Developer"
+        },
+        {
+            "id": 5,
+            "name": "Ishika Bhardwaj",
+            "image": "/images/team/ishika.png",
+            "linkedIn":"",
+            "profile": "Web Developer"
+        },
+        {
+            "id": 6,
+            "name": "Shivam Thakur",
+            "image": "/images/team/shivam.png",
+            "linkedIn":"",
+            "profile": "PHP Developer"
+        },
+        {
+            "id": 7,
+            "name": "Prabhdeep Singh",
+            "image": "/images/team/prabh.png",
+            "linkedIn":"",
+            "profile": "PHP Developer"
+        },
+        {
+            "id": 8,
+            "name": "Deepak Shah",
+            "image": "/images/team/deepak.png",
+            "linkedIn":"",
+             "profile": "React js Developer"
+        },
+        {
+            "id": 10,
+            "name": "Amarjit Singh",
+          "image": "/images/team/amarjeet.png",
+            "linkedIn":"",
+             "profile": "Web Developer"
+        },
+        {
+            "id": 11,
+            "name": "Simran Kaur",
+            "image": "/images/team/simran.png",
+            "linkedIn":"",
+             "profile": "PHP Developer"
+        },
+        {
+            "id": 12,
+            "name": "Abhishek Rathour",
+            "image": "/images/team/abhishek.png",
+            "linkedIn":"",
+             "profile": "Web Designer"
+        },
+        {
+            "id": 12,
+            "name": "Lucky Jaryal",
+            "image": "/images/team/lucky.png",
+            "linkedIn":"",
+             "profile": "Web Designer"
+        },
+        {
+            "id": 13,
+            "name": "Tushar Thakur",
+            "image": "/images/team/tushar.png",
+            "linkedIn":"",
+             "profile": "Web Designer"
+        },
+        {
+            "id": 14,
+            "name": "Rahul Kumar",
+            "image": "/images/team/rahul.png",
+            "linkedIn":"",
+            "profile": "Web Designer"
+        },
+        {
+            "id": 15,
+            "name": "Anmol Madaan",
+            "image": "/images/team/anmol.png",
+            "linkedIn":"",
+            "profile": "SEO Executive "
+        },
+        {
+            "id": 17,
+            "name": "Shivani Chandel",
+           "image": "/images/team/shivani.png",
+            "linkedIn":"",
+            "profile": "Business Development Executive"
+        },
+        {
+            "id": 18,
+            "name": "Mansi Verma",
+           "image": "/images/team/mansi.png",
+            "linkedIn":"",
+            "profile": " Business Development Executive "
+        },
+        {
+            "id": 19,
+            "name": "Mangesh Goel",
+           "image": "/images/team/mangesh.png",
+            "linkedIn":"",
+            "profile": "Business Development Executive"
+        },
+        {
+            "id": 20,
+            "name": "Deepak Kumar",
+           "image": "/images/team/deepak_kumar.png",
+            "linkedIn":"",
+            "profile": "Business Development Executive"
+        },
+        {
+            "id": 21,
+            "name": "Sangharsh Thakur",
+           "image": "/images/team/sangarsh.png",
+            "linkedIn":"",
+            "profile": "Business Development Executive"
+        }
+    
+        
+    ]
+}

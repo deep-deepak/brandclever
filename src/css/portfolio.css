@@ -1,0 +1,110 @@
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #191e25;
+    --green-color: #54a154;
+    --dark-black-color:#292b32;
+    --paragraph-color:#212529;
+}
+
+
+.card_portfol img {
+    width: 100%;
+    border-radius: 10px;
+}
+.costner_page_web {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.page_link_prot {
+    padding-top: 12px;
+    text-align: center;
+    padding-bottom: 13px;
+}
+.portfolio_main {
+    padding: 67px 0px;
+}
+.costner_page_web:hover {
+    background: #f9f9f9;
+}
+.portfolio_heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.page_link_prot a:hover {
+    text-decoration: none;
+}
+
+.costner_page_web a {
+    text-decoration: none;
+    position: relative;
+}
+.costner_page_web a:hover::before {
+    content: '';
+    position: absolute;
+    background: #00000052;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .4s;
+    width: 100%;
+    height: 80.5%;
+    border-radius: 10px;
+}
+
+.card_portfol h3 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black-color);
+    line-height: 22px;
+    padding: 15px;
+}
+
+.costner_page_web:hover {
+    background: #54a154;
+}
+
+.port_title{
+    color: #fff !important;
+}
+
+
+.costner_page_web a:hover::after {
+    content: '\f08e';
+    position: absolute !important;
+    background: #54a154;
+    top: 36% ;
+    font-family: 'Font Awesome 5 Pro';
+    left: 38% ;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* safari browser */
+@-moz-document url-prefix() {
+    .costner_page_web a:hover::after {
+        content: '\f08e';
+        top: 90px !important;
+        left: 145px !important;
+    }
+}
+
+
+        @supports (-webkit-touch-callout: none) {
+            /* Safari-specific CSS rules here */
+            .costner_page_web a:hover:after {
+                left: 160px !important;
+                top: -190px !important;
+            }
+        }
+        

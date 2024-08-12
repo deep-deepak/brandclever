@@ -1,0 +1,109 @@
+.comment_sec_main {
+    padding: 10px 20px 20px 20px;
+    box-shadow: 0px 0px 4px 0px #509e53;
+    border-radius: 8px;
+    margin-top: 10px;
+    position: relative;
+}
+.comment_sec_main .container label.form-label {
+    color: #212529 !important;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    display: none;
+}
+button.post_btn.btn.btn-primary {
+    background: #509e53;
+}
+.comment_sec_main .comment_desc {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.comment_sec_main .action {
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+.comment_sec_main .comment_list_section {
+    background: #dbdbdb;
+    border-radius: 7px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+}
+.comment_sec_main .list_time p {
+    padding: 0;
+    margin-left: 70px;
+    margin-top: -17px;
+    font-size: 14px;
+}
+.comment_sec_main .reply_btn {
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+    align-items: center;
+}
+.comment_sec_main .reply_btn p {
+    padding: 0;
+    margin: 0;
+}
+.comment_sec_main  .comment_desc p {
+    margin: 0;
+    padding: 0;
+}
+.comment_sec_main .list_name p {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px !important;
+    margin-top: -14px !important;
+}
+button.more_comments.btn.btn-primary {
+    box-shadow: unset !important;
+    color: #fff !important;
+    letter-spacing: 1px !important;
+    background: #191e25;
+    font-weight: 600;
+    margin: 0 auto;
+    width: unset !important;
+    padding-right: 24px !important;
+    height: unset !important;
+}
+.load_more_cmnt {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+button.more_comments.btn.btn-primary:hover {
+    transform: none !important;
+    padding: 0px !important;
+    height: 42px !important;
+    width: 142px !important;
+    box-shadow: inset 0px 100px 0px 0px #ffffff !important;
+    color:#191e25 !important;
+    background-color: #fff;
+    transition: 2s;
+    border: 1px solid #191e25 !important;
+}
+
+small#passwordHelpBlock {
+    margin-bottom: 20px !important;
+    padding-left: 10px;
+}
+.comment_sec_main .text-muted {
+    color: #ff0000 !important;
+}
+textarea#floatingTextarea2:focus {
+    box-shadow: 0px 0px 0px 1px #509e53 !important;
+    border: 1px solid #ccc;
+}
+input#inputPassword5:focus {
+    box-shadow: 0px 0px 0px 1px #509e53 !important;
+    border: 1px solid #ccc;
+}
+button.post_btn.btn.btn-primary:focus {
+    box-shadow: unset !important;
+}
+small#passwordHelpBlock\ test {
+    margin-top: -20px !important;
+    margin-bottom: 20px !important;
+    padding-left: 10px;
+}
